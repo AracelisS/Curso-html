@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primera prueba</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>SOY NOVATA</h1>
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+    <hr>
+
+<hr>
+<pre>
+    Hola soy mujer,
+    el mundo esta a boca abajo;
+    ¿Quieres tener una aventura?
+</pre>
+<hr>
+<p> <b> Esto es un parrafo</b></p>
+<!--La diferencia entre la etiqueta b y la strong es que strong hace que el nevegador haga enfasis 
+en la palabra o sea mas importante que las demas, mientras que la b simplemente la pone en negrita-->
+<p><strong>Esto tambien es un parrafo</strong></p>
+<p>wawawa<sup>hola klk</sup></p>
+<P>Aracelis<sub>Hola</sub></P>
+<p><ins>Mi nombre es Hester</ins></p>
+<p><del>hola soy elimindo</del></p>
+<p><i>Hola soy un parrafo en cursiva</i></p>
+<hr>
+<a href="https://es-la.facebook.com" target="_blank">FACEBOOK</a>
+<hr>
+<img src="./imagenes/1.jpeg" alt="increible imagen">
+<hr>
+<!--Los tr son las filas y los th son las columnas-->
+<!--colspan sirve para combinar las celdas y td 
+para insertar texto que no sea encabezado y para combinar 
+columnas rowspan-->
+<table>
+    <tr>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Edad</th>
+        <th>Ciudad</th>
+    </tr>
+    <tr>
+        <td colspan="2">Aracelis Severino</td>
+        
+        <td>18</td>
+        <td>Santiago</td>
+    </tr>
+    <tr>
+        <td>JOSE </td>
+        <td>HIDALGO</td>
+        <td rowspan="2">50 años</td>
+        <td>PEDERNALES </td>
+    </tr>
+    <tr>
+        <td>hello</td>
+    </tr>
+    </table>
+<hr>
+<!--Dos tipos de listas, ul, ol, en las ol se puede 
+utilizar el atributo start para decir desde donde inicie 
+el conteo de los numeros ordenados-->
+<ul>
+    <li>Soy amable</li>
+    <li>Soy amigable</li>
+    <li>Sigo firme</li>
+    <li>No me paraliso</li>
+    <li>KlK wawawa</li>
+</ul>
+<ul class="lista-desordenada">
+    <li>Soy amable</li>
+    <li>Soy amigable</li>
+    <li>Sigo firme</li>
+    <li>No me paraliso</li>
+    <li>KlK wawawa</li>
+</ul>
+<ol> 
+    <li>Soy amable</li>
+    <li>Soy amigable</li>
+    <li>Sigo firme</li>
+    <li>No me paraliso</li>
+    <li>KlK wawawa</li>
+</ol>
+<ol start="10" class="lista">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ol>
+<hr>
+<!--varias maneras para intergrar un input dependiendo
+del type que tenga: tipo text una linea de texto, tipo
+radio button para seleccionar varias opciones y el tipo
+submit es el boton para enviar el formulario-->
+<form action="">
+    <fieldset>
+    <legend>Informacion personal</legend>
+    NOMBRE <br>
+    <input type="text" name="firstname"> <br>
+    APELLIDOS <br>
+    <input type="text" name="lastname">
+</fieldset>
+    <br>
+    <fieldset>
+    <legend>Seleccion</legend>
+    <input type="radio" name="gender" value="male" checked>Hombre <br>
+    <input type="radio" name="gender" value="female">Mujer <br>
+    <input type="radio" name="gender" value="other">Otro <br>
+</fieldset>
+<br>
+    <input type="submit" value="Enviar">
+</form>
+
+
+
+</body>
+
+</html>
