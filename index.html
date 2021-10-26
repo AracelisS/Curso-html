@@ -100,9 +100,9 @@ submit es el boton para enviar el formulario-->
 <form action="">
     <fieldset>
     <legend>Informacion personal</legend>
-    NOMBRE <br>
+    <label for="firstname"> NOMBRE</label> <br>
     <input type="text" name="firstname"> <br>
-    APELLIDOS <br>
+    <label for="lastname">APELLIDOS</label> <br>
     <input type="text" name="lastname">
 </fieldset>
     <br>
@@ -114,8 +114,20 @@ submit es el boton para enviar el formulario-->
 </fieldset>
 <br>
     <input type="submit" value="Enviar">
-</form>
+    <br><br>
+    <label for="colores">Selecciona un color</label>
+    <select name="colores" id="" size="2"> 
+        <option value="color">ROJO</option>
+        <option value="color-a">AMARILLO</option>
+        <option value="color-verde">VERDE</option>
 
+    </select>
+    <br> <br>
+    <textarea name="notas" id="" cols="30" rows="10" cols="50"></textarea>
+    <br>
+    <button type="submit">Boton</button>
+</form>
+ 
 
 
 </body>
