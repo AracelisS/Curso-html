@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,15 @@
     <title>videos</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <!--Esto es de html-->
     <h1>TITULAR</h1>
     <p title="Esto es un parrafo">Los elefantes se balanciaban sobre la tela de una araña.</p>
-    <img src="imagenes/imagenes_3d_01.jpg" alt="imagen" width="30%" >
+    <img src="imagenes/imagenes_3d_01.jpg" alt="imagen" width="30%">
     <br>
-    <a href="https://www.youtube.com/watch?v=CGV9CuIUtwk&list=PLnunbwZjHqMOFL0vGRg-2OhV8fTtbujrD" target="_blank">Enlase!!</a>
+    <a href="https://www.youtube.com/watch?v=CGV9CuIUtwk&list=PLnunbwZjHqMOFL0vGRg-2OhV8fTtbujrD"
+        target="_blank">Enlase!!</a>
     <hr>
     <pre>
         No juzgues, aprende y <b> no mires</b> atras.
@@ -29,18 +32,112 @@
             <th>Apellido</th>
             <th>Numero</th>
         </tr>
-        <tr> 
+        <tr>
             <td>Aracelis</td>
             <td>Severino</td>
             <td>829-263-9630</td>
         </tr>
     </table>
     <br>
-        <hr>
-        <ul>
-            <li>Inicio</li>
-            <li>Nosotros</li>
-            <li>Contacto</li>
-        </ul>
+    <hr>
+    <ul>
+        <li>Inicio</li>
+        <li>Nosotros</li>
+        <li>Contacto</li>
+    </ul>
+    <hr>
+    <div>
+        <form action="">
+            <fieldset>
+                <legend>Tipo texto</legend>
+                <label for="name">Nombre</label>
+                <input type="text" name="nombre" id="name">
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" name="apellido">
+                <label for="password">Contraseña</label>
+                <input type="text" id="password" name="contraseña">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Tipo radio</legend>
+                <input type="radio" id="opcion1" name="color">
+                <label for="opcion1">Mujer</label>
+                <br>
+                <input type="radio" id="opcion2" name="color">
+                <label for="opcion2">Hombre</label>
+
+                <br>
+                <input type="radio" id="opcion3" name="color">
+                <label for="opcion3">Otro</label>
+
+                <br>
+                <input type="submit" name="boton" value="Enviar">
+                <br>
+                <p>Tipo checkbox input</p>
+                <label for="verdecolor">verde</label>
+                <input type="checkbox" id="verdecolor" name="verde">
+                <br>
+                <label for="rojocolor">rojo</label>
+                <input type="checkbox" id="rojocolor" name="rojo">
+                <br>
+                <p>Input de tipo color</p>
+                <input type="color" name="color">
+                <br>
+                <p>Input de tipo date</p>
+                <input type="datetime-local" name="fecha_hora">
+                <input type="date" name="fecha" id="">
+                <p>Hay distintos tipos de input</p>
+                <br>
+                <p>input de busqueda</p>
+                <input type="search" name="buscar" id="buscador" placeholder="Buscar" autofocus>
+                <input type="text" readonly name="lectura" value="Valor no se cambia">
+            </fieldset>
+            <fieldset>
+                <legend>Selectores</legend>
+                <label for="color">Selecciona el color</label>
+                <select id="color" name="colores" size="2">
+                    <option value="color1">Rojo</option>
+                    <option value="color2">Amarillo</option>
+                    <option value="color3">Verde</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Datalis</legend>
+                <input type="text" list="colores">
+                <datalist id="colores">
+                    <option>rojo</option>
+                    <option>Amarillo</option>
+                    <option>Verde</option>
+                </datalist>
+            </fieldset>
+            <hr>
+        </form>
+
+        <form action="">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="iname">
+            <label for="correo">Email</label>
+            <input type="email" id="correo" name="email">
+            <label for="contraseña">Contraseña</label>
+            <input type="password" name="pass" id="contraseña" required>
+            <input type="submit" id="envio" value="Enviar">
+            <input type="reset" value="Resetear">
+        </form>
+    </div>
+    <br>
+    <p>video</p>
+    <video controls width="340" height="300">
+        <source src="imagenes/y2mate.com - Rochy RD  Mi Mujer  Video Oficia_1080p.mp4" type="video/mp4">
+    </video>
+    <br>
+    <p>audio</p>
+    <audio controls>
+        <source src="y2mate.com - Rochy RD  Mi Mujer  Video Oficia.mp3" type="audio/mp3">
+    </audio>
+
+    <iframe width="300" height="200" src="https://www.youtube.com/embed/BBuT-UetrWY" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
 </body>
+
 </html>
