@@ -1,0 +1,17 @@
+/*Los selectores*/
+/*De forma universal, que selecciona todo lo que esta en el 
+documento y lo cambia (*{})*/
+/*Por tipo o nombre de etiqueta, lo que hace es que toma en especifico una
+etiqueta y la modifica (h1{})*/
+/*Por clase, lo que hace es que te permite poner una clase a la
+parte que quieres cambiar, el nombre de la clase sera lo que la identifique (.primero{})*/
+/*Por id, esto identifica algo en especifico con un valor unico(#primer{})*/
+/*Por atributo, creamos un atributo que no existe y lo tomamos como
+referencia para representarlo en el css([primer="eres un atributo"]{})*/
+/*Por desendiente,si tenemos etiquetas dentro de etiquetas
+(h1 p{})*/
+/*Por seudo clase*/
+
+h1 p{
+color: red;
+} 
