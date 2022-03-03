@@ -11,7 +11,30 @@ referencia para representarlo en el css([primer="eres un atributo"]{})*/
 /*Por desendiente,si tenemos etiquetas dentro de etiquetas
 (h1 p{})*/
 /*Por seudo clase*/
+/*Especificidad */
+/*Medidas relativas y fijas*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.bloke__principal{
 
-h1 p{
-color: red;
-} 
+  
+    color:rgb(87, 20, 0);
+    font-size: 1em;
+    background-color: rgb(229, 147, 147);
+}
+.bloke__cuerpo{
+    font-size: 20px;
+    color: black;
+    background-color:   rgb(182, 166, 166);;
+}
+.bloke__cuerpo-h2{
+    color: red;
+font-size: 1em  ;
+}
+.bloke__footer{
+    color: rgb(147, 235, 238);
+    font-size: 2em   ;
+    background-color: darkgray;
+}
