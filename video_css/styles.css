@@ -13,15 +13,18 @@ referencia para representarlo en el css([primer="eres un atributo"]{})*/
 /*Por seudo clase*/
 /*Especificidad */
 /*Medidas relativas y fijas*/
+/*tipografia*/
 *{
     padding: 0px;
     margin: 0px;
 }
-.bloke__principal{
+/*.bloke__principal{
 
-  
+
     color:rgb(87, 20, 0);
     font-size: 1em;
+    font-family: 'Bebas Neue', cursive;    line-height: 2;
+
     background-color: rgb(229, 147, 147);
 }
 .bloke__cuerpo{
@@ -37,4 +40,4 @@ font-size: 1em  ;
     color: rgb(147, 235, 238);
     font-size: 2em   ;
     background-color: darkgray;
-}
+}*/
